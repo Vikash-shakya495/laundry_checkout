@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #increase{
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button id="increase"> 0 </button>
+    <script>
+        const fetch_btn = document.querySelector('#increase');
+
+
+        fetch_btn.addEventListener('click',()=>{
+            const body = document.querySelector('body');
+        let count = '';
+
+            let sum = count + 1;
+            console.log(count);
+            body.innerHTML += `<button id='increase' class='remove'> ${sum} </button>`;
+            // const removebtn = document.querySelector('.remove');
+            // remove.style.
+            
+        });
+        // fetch_btn.addEventListener('click')
+
+    </script>
+</body>
+</html>
